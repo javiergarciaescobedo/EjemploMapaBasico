@@ -39,7 +39,7 @@
             mymap.setZoom(zoom);
         }
 
-        function drawTrack(v, msg) {
+        function drawTrack(v) {
             layerTrack = L.polyline(v);
             layerTrack.addTo(mymap);
             mymap.setView(v[0]);
